@@ -1,0 +1,19 @@
+# Données et images d'essais : conserver uniquement en local.
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+*.png
+
+# Environnements, caches et artefacts de construction.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+dist_*/
+*.log
+.streamlit/secrets.toml
+
